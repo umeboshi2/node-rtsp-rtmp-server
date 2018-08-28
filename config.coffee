@@ -6,7 +6,7 @@ module.exports =
   ############################
 
   # Server listen port
-  serverPort: 80
+  serverPort: 8082
 
   # RTMP server listen port
   rtmpServerPort: 1935
@@ -97,10 +97,12 @@ module.exports =
     # Has video?
     hasVideo: true
 
-    # See: Adobe Flash Video File Format Specification Version 10.1 - E.4.3.1 VIDEODATA
+    # See: Adobe Flash Video File Format Specification
+    # Version 10.1 - E.4.3.1 VIDEODATA
     videocodecid: 7  # H.264
 
-    # See: Adobe Flash Video File Format Specification Version 10.1 - E.4.2.1 AUDIODATA
+    # See: Adobe Flash Video File Format Specification
+    # Version 10.1 - E.4.2.1 AUDIODATA
     audiocodecid: 10 # AAC
 
 
