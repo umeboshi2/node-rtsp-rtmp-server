@@ -9,7 +9,10 @@ Bits.set_warning_fatal true
 logger.setLevel logger.LEVEL_INFO
 
 streamServer = new StreamServer
-
+  # FIXME find a better way to send options and config
+  # set documentRoot to /tmp for testing
+  documentRoot: "/tmp/"
+  
 # Uncomment this block if you use Basic auth for RTSP
 #streamServer.setAuthenticator (username, password, callback) ->
 #  # If isAuthenticated is true, access is allowed
